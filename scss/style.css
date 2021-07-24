@@ -1,0 +1,123 @@
+@import url('https://fonts.google.com/specimen/Overpass?preview.text_type=custom');
+@import url('https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom');
+
+body{
+    margin: 0px;
+    Font-size: 16px;
+    background-color: bisque;
+}
+
+*{
+    color: white;
+    font-family: 'Overpass', 'Ubuntu';
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+}
+
+.primary-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+}
+
+.favicon{
+    margin-right: 20px;
+}
+
+.droplink{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.droplink p{
+    margin-right: 5px;
+}
+
+.secondary-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: max-content;
+}
+
+.login{
+    font-size: 14px;
+}
+
+.signup{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 100px;
+    color: hsl(356, 100%, 66%);
+    margin-left: 10px;
+}
+
+.landing-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: linear-gradient(120deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-bottom-left-radius: 100px;
+}
+
+.gr{
+    background: url('../resources/images/bg-pattern-intro.svg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+}
+
+.landing-banner h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.actions{
+    margin-top: 20px;
+}
+
+.more{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 100px;
+    color: hsl(356, 100%, 66%);
+}
+
+.start{
+    padding: 10px 20px 10px 20px;
+    background-color: #ffffff00;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 100px;
+    color: #ffffff;
+    margin-right: 20px;
+}
