@@ -4,12 +4,13 @@
 body{
     margin: 0px;
     Font-size: 16px;
-    background-color: bisque;
+    background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 *{
     color: white;
-    font-family: 'Overpass', 'Ubuntu';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -120,4 +121,76 @@ a{
     border-radius: 100px;
     color: #ffffff;
     margin-right: 20px;
+}
+
+.hero1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: hsl(240, 10%, 16%);
+    font-size: 25px;
+}
+
+h3{
+    color: hsl(240, 10%, 16%);
+    font-size: 18px;
+}
+
+.hero1 p{
+    color: hsl(240, 10%, 16%);
+    font-size: 14px;
+}
+
+.hero1 .img{
+    width: 40%;
+}
+
+
+.hero2 p{
+    color: hsl(240, 10%, 16%);
+    font-size: 14px;
+}
+
+.hero2 .img{
+    width: 50%;
+    position: relative;
+    right: 20%;
+}
+
+.hero{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero .desc{
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    height: max-content;
+}
+
+
+
+
+@media (max-width: 750px) {
+    body{
+    }
+}
+
+
+@media (max-width: 375px) {
+    body{
+        background-color: cyan;
+    }
 }
