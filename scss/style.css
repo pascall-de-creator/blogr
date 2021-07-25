@@ -247,6 +247,39 @@ h3{
     font-family: 'Overpass', sans-serif;
 }
 
+footer{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 150px;
+    height: 300px;
+    margin-top: 200px;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 100px;
+}
+
+.ft{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.fth{
+    display: flex;
+    flex-direction: column;
+}
+
+.fth a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 200;
+    color: hsl(240, 2%, 79%);
+}
+
+footer img{
+    width: 100px;
+    height: 40px;
+}
+
 @media (max-width: 750px) {
 }
 
