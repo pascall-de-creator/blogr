@@ -16,6 +16,7 @@ body{
 
 a{
     text-decoration: none;
+    transition: 1s;
 }
 
 .navigation{
@@ -48,9 +49,98 @@ a{
     margin-left: 20px;
 }
 
-.droplink p{
+.droplink a{
     margin-right: 5px;
 }
+
+.droplink:hover {
+    text-decoration: underline;
+}
+
+.dropmenu3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    left: 280px;
+    top: 120px;
+    display: none;
+    color: black;
+    filter: drop-shadow(2px 2px 12px #333);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropmenu3 a{
+    color: black;
+    width: 150px;
+}
+
+.dropmenu3 a:hover{
+    color: black;
+    font-weight: 600;
+    width: 150px;
+}
+
+.dropmenu2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    left: 180px;
+    display: none;
+    top: 120px;
+    color: black;
+    filter: drop-shadow(2px 2px 12px #333);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropmenu2 a{
+    color: black;
+    width: 150px;
+}
+
+.dropmenu2 a:hover{
+    color: black;
+    font-weight: 600;
+    width: 150px;
+}
+
+.dropmenu1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    left: 90px;
+    top: 120px;
+    display: none;
+    color: black;
+    filter: drop-shadow(2px 2px 12px #333);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropmenu1 a{
+    color: black;
+    width: 150px;
+}
+
+.dropmenu1 a:hover{
+    color: black;
+    font-weight: 600;
+    width: 150px;
+}
+
 
 .secondary-nav{
     display: flex;
@@ -68,6 +158,15 @@ a{
     font-size: 14px;
     border-radius: 100px;
     color: hsl(356, 100%, 66%);
+    margin-left: 30px;
+}
+
+.signup:hover {
+    padding: 15px 30px 15px 30px;
+    background-color: #ffffff7c;
+    font-size: 14px;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
     margin-left: 30px;
 }
 
@@ -125,12 +224,24 @@ a{
     color: #ffffff;
 }
 
+.more:hover {
+    background-color: #ffffff;
+    color: hsl(356, 100%, 66%);
+    border-color: #ffffff00;
+}
+
 .start{
     padding: 15px 30px 15px 30px;
     background-color: white;
     border-radius: 100px;
     color: hsl(356, 100%, 66%);
     margin-right: 20px;
+}
+
+.start:hover {
+    background-color: #ffffff7c;
+    color: rgb(255, 255, 255);
+    border-color: #ffffff00;
 }
 
 .hero1{
@@ -273,6 +384,10 @@ footer{
     margin-bottom: 5px;
     font-weight: 200;
     color: hsl(240, 2%, 79%);
+}
+
+.fth a:hover {
+    text-decoration: underline;
 }
 
 footer img{
