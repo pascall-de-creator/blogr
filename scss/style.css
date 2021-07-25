@@ -11,7 +11,7 @@ body{
 *{
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a{
@@ -20,15 +20,15 @@ a{
 
 .navigation{
     display: flex;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     position: absolute;
-    width: 90%;
+    width: 80%;
 }
 
 .primary-nav{
@@ -55,7 +55,6 @@ a{
 .secondary-nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     width: max-content;
 }
 
@@ -64,12 +63,12 @@ a{
 }
 
 .signup{
-    padding: 10px 20px 10px 20px;
+    padding: 15px 30px 15px 30px;
     background-color: white;
     font-size: 14px;
     border-radius: 100px;
     color: hsl(356, 100%, 66%);
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .landing-banner{
@@ -77,13 +76,14 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    background-image: linear-gradient(120deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    height: 550px;
+    background-image: linear-gradient(90deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     border-bottom-left-radius: 100px;
+    margin-bottom: 110px;
 }
 
 .gr{
-    background: url('../resources/images/bg-pattern-intro.svg');
+    background: url(../resources/images/bg-pattern-intro.svg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,34 +92,44 @@ a{
     width: 100%;
     border-bottom-left-radius: 100px;
     background-repeat: no-repeat;
-    background-size: 200%;
-    background-position: center;
+    background-size: 150%;
+    background-position: -200px, 500px;
 }
 
 .landing-banner h1{
-    font-size: 35px;
+    font-size: 28px;
+    letter-spacing: 2px;
     margin-bottom: 0px;
+    font-weight: 300;
+    font-family: 'Overpass', sans-serif;
+}
+
+.landing-banner h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .actions{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .more{
-    padding: 10px 20px 10px 20px;
-    background-color: white;
-    border-radius: 100px;
-    color: hsl(356, 100%, 66%);
-}
-
-.start{
-    padding: 10px 20px 10px 20px;
+    padding: 15px 30px 15px 30px;
     background-color: #ffffff00;
     border-style: solid;
     border-width: 1px;
     border-color: white;
     border-radius: 100px;
     color: #ffffff;
+}
+
+.start{
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+    border-radius: 100px;
+    color: hsl(356, 100%, 66%);
     margin-right: 20px;
 }
 
@@ -136,28 +146,38 @@ a{
 }
 
 h2{
-    color: hsl(240, 10%, 16%);
-    font-size: 25px;
+    color: hsl(208, 49%, 24%);
+    font-size: 42px;
+    font-weight: 300;
+    font-family: 'Overpass', sans-serif;
 }
 
 h3{
-    color: hsl(240, 10%, 16%);
-    font-size: 18px;
+    color: hsl(237, 17%, 21%);
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Overpass', sans-serif;
 }
 
 .hero1 p{
     color: hsl(240, 10%, 16%);
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: 'Overpass', sans-serif;
 }
 
 .hero1 .img{
-    width: 40%;
+    width: 50%;
 }
 
 
 .hero2 p{
     color: hsl(240, 10%, 16%);
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: 'Overpass', sans-serif;
 }
 
 .hero2 .img{
@@ -174,18 +194,60 @@ h3{
 }
 
 .hero .desc{
-    width: 45%;
+    width: 35%;
     margin-right: auto;
+    margin-left: 10%;
+    height: max-content;
+}
+
+#gr{
+    background-image: linear-gradient(120deg, #2c2d3f, #3f4164);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.phone-card{
+    background-image: url("../resources/images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: -300px -600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.phone{
+    position: relative;
+    bottom: -20px;
+    height: fit-content;
+}
+
+
+.phone-headin{
+    width: 35%;
     margin-left: auto;
+    margin-right: auto;
     height: max-content;
 }
 
 
+.phone-headin h2{
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Overpass', sans-serif;
+}
 
+.phone-headin p{
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: 'Overpass', sans-serif;
+}
 
 @media (max-width: 750px) {
-    body{
-    }
 }
 
 
