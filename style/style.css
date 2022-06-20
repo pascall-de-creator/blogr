@@ -10,7 +10,7 @@ body{
 
 *{
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Overpass;
     font-size: 16px;
 }
 
@@ -182,7 +182,7 @@ a{
 }
 
 .gr{
-    background: url(../resources/images/bg-pattern-intro.svg);
+    background: url("../public/bg-pattern-intro.svg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -318,7 +318,7 @@ h3{
 }
 
 .phone-card{
-    background-image: url("../resources/images/bg-pattern-circles.svg");
+    background-image: url("../public/bg-pattern-circles.svg");
     background-repeat: no-repeat;
     background-position: -300px -600px;
     height: 400px;
